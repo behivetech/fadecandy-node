@@ -1,0 +1,17 @@
+.main-header {
+    position: relative;
+    vertical-align: bottom;
+    padding: 5px 0 0 10px;
+    height: 60px;
+
+    &--metacloud-logo {
+        max-height: 50px;
+        width: auto;
+    }
+
+    &--logged-in {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+    }
+}

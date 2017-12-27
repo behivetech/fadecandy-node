@@ -1,0 +1,28 @@
+@import '../../styles/globals';
+
+.main-nav {
+    bottom: 8px;
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+
+    &--logout,
+    &--link,
+    &--dropdown {
+        margin-right: 8px;
+    }
+
+    &--dropdown-content {
+        font-weight: bold;
+    }
+
+    &--link_active {
+        background-color: $color-button-background-active;
+    }
+
+    &--ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
